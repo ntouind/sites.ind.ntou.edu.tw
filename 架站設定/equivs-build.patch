@@ -1,0 +1,11 @@
+--- equivs-build	2015-10-19 09:35:19.000000000 +0800
++++ equivs-build.patched	2016-12-19 16:26:38.671821536 +0800
+@@ -46,7 +46,7 @@
+   usage();
+ }
+ 
+-system("cp -R /usr/share/equivs/template/* $builddir") == 0 or
++system("cp -R /usr/share/equivs/template/* \"$builddir\"") == 0 or
+   die "Error on copy of the template files: exit status " . ($?>>8) . "\n";
+ 
+ # Parse the equivs control file
