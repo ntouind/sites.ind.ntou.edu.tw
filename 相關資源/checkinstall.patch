@@ -1,0 +1,42 @@
+--- checkinstall	2013-03-13 03:23:23.000000000 +0800
++++ checkinstall.patched	2016-12-19 19:09:01.904293251 +0800
+@@ -325,8 +325,8 @@
+    rm -f "${RPMSOURCEDIR}/SOURCES/${PKG_BASENAME}.tgz"
+ 
+  # If we had a pre-existing postinstall-pak, we keep it as it was.
+- if [ -f ${DIRECTORIO_FUENTE}/postinstall-pak.tmp ]; then
+-    mv ${DIRECTORIO_FUENTE}/postinstall-pak.tmp ${DIRECTORIO_FUENTE}/postinstall-pak
++ if [ -f "${DIRECTORIO_FUENTE}/postinstall-pak.tmp" ]; then
++    mv "${DIRECTORIO_FUENTE}/postinstall-pak.tmp" "${DIRECTORIO_FUENTE}/postinstall-pak"
+  fi
+ 
+  true; okfail
+@@ -1931,7 +1931,7 @@
+ 
+ # Do we have a postinstall script?
+ PINST_EXISTS=0
+-[ -f ${DIRECTORIO_FUENTE}/postinstall-pak ] && PINST_EXISTS=1
++[ -f "${DIRECTORIO_FUENTE}/postinstall-pak" ] && PINST_EXISTS=1
+ 
+ ##############################################################################
+                          # Identify shared libraries # 
+@@ -2034,7 +2034,7 @@
+ 		        # End of Identify kernel modules #
+ ##############################################################################
+ 
+-cd $DIRECTORIO_FUENTE
++cd "$DIRECTORIO_FUENTE"
+ 
+ FAILED=0
+ 
+@@ -2783,8 +2783,8 @@
+    rm -f ${DIRECTORIO_FUENTE}/postinstall-pak
+ fi
+ 
+-if [ -f ${DIRECTORIO_FUENTE}/postinstall-pak.tmp ]; then
+-   mv ${DIRECTORIO_FUENTE}/postinstall-pak.tmp ${DIRECTORIO_FUENTE}/postinstall-pak
++if [ -f "${DIRECTORIO_FUENTE}/postinstall-pak.tmp" ]; then
++   mv "${DIRECTORIO_FUENTE}/postinstall-pak.tmp" "${DIRECTORIO_FUENTE}/postinstall-pak"
+ fi
+ 
+ 
