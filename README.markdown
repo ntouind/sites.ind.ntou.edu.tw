@@ -3,21 +3,21 @@
 到 <http://github.com/ntouind/sites.ind.ntou.edu.tw> 參與本專案的開發！
 
 ## 特色<br>Features
-* 支援 sites.ind.ntou.edu.tw 域名下使用者家目錄下自己架網站（尚未實作完成）
+* 支援 sites.ind.ntou.edu.tw 域名下使用者自己架網站（尚未實作完成）
 * 支援其他域名的站台托管（請來信 <ntouind@gmail.com> 洽詢，我們保留是否通過申請的決定權）
-* 支援以 Let's Encrypt 為基礎的 HTTPS 加密通訊協議，保護傳輸的資料
-* 俱備可自訂的 Apache Web 伺服器錯誤頁面
-* 使用 Git、Git Large File Storage 管理網站內容，並支持 GitHub Web 掛勾程式在提交新版本至 GitHub 時自動更新網站版本
+* 支援以 [Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/) 為基礎的 HTTPS 加密通訊協議，保護傳輸的資料
+* 俱備可自訂的 [Apache Web 伺服器錯誤頁面](https://sites.ind.ntou.edu.tw/http-404-not-found)
+* （目前限主網站）使用 [Git](https://git-scm.com/)、[Git Large File Storage](https://git-lfs.github.com/) 管理網站內容，並支持 [GitHub Web 掛勾程式](https://developer.github.com/webhooks/)在提交新版本至 GitHub 時自動更新網站版本
 * 預設啟用每天自動安裝系統更新並重新啟動系統讓伺服器維持最佳運作狀態與安全性
 * 俱備良好的[維護文件](http://github.com/ntouind/sites.ind.ntou.edu.tw/wiki)
 
 ## 開發目標<br>Development Goals
-* 一個維護良好、安全的 L.A.M.P.(Linux+Apache+MySQL/MariaDB+PHP) 伺服器與網站托管服務
+* 一個易於架設維護、安全的 L.A.M.P.(Linux+Apache+MySQL/MariaDB+PHP) 伺服器與網站托管服務
 * 作為讓社員學習 Apache 多虛擬主機(Virtual Host)、PHP 動態網頁設計、CGI 程式設計、多重使用者管理、磁碟配額控制的平台
 * 一樣，能公開的資源都會公開在 GitHub 上
 
 ## 作者<br>Authors
-* 本作品由國立台灣海洋大學網路發展協會之學生所作，惟至近期並沒有紀錄誰改了什麼
+* 本作品由國立台灣海洋大學網路發展協會之社員所作，惟至近期並沒有紀錄誰改了什麼
 * 目前有紀錄的作者請參考 [Contributors to ntouind/sites.ind.ntou.edu.tw](https://github.com/ntouind/sites.ind.ntou.edu.tw/graphs/contributors)
 
 ## 目前維護者<br>Current Maintainer
