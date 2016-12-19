@@ -1,7 +1,6 @@
 # 海洋大學網路發展協會網站托管服務<br>NTOU IND Site Hosting Service
-<https://sites.ind.ntou.edu.tw>  
-到 <http://github.com/ntouind/sites.ind.ntou.edu.tw> 參與本專案的開發！  
-這是[海洋大學網路發展協會網站托管服務](http://sites.ind.ntou.edu.tw)的開發與維護專案
+這裡是[海洋大學網路發展協會網站托管服務](http://sites.ind.ntou.edu.tw)與它的開發與維護專案  
+到 <http://github.com/ntouind/sites.ind.ntou.edu.tw> 參與本專案的開發！
 
 ## 特色<br>Features
 * 支援 sites.ind.ntou.edu.tw 域名下使用者家目錄下自己架網站（尚未實作完成）
@@ -13,7 +12,7 @@
 * 俱備良好的[維護文件](http://github.com/ntouind/sites.ind.ntou.edu.tw/wiki)
 
 ## 開發目標<br>Development Goals
-* 一個維護良好的 L.A.M.P.(Linux+Apache+MySQL/MariaDB+PHP) 伺服器與網站托管服務
+* 一個維護良好、安全的 L.A.M.P.(Linux+Apache+MySQL/MariaDB+PHP) 伺服器與網站托管服務
 * 作為讓社員學習 Apache 多虛擬主機(Virtual Host)、PHP 動態網頁設計、CGI 程式設計、多重使用者管理、磁碟配額控制的平台
 * 一樣，能公開的資源都會公開在 GitHub 上
 
