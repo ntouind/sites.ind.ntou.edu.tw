@@ -2,6 +2,8 @@
 這裡是[海洋大學網路發展協會網站托管服務](http://sites.ind.ntou.edu.tw)與它的開發與維護專案  
 到 <http://github.com/ntouind/sites.ind.ntou.edu.tw> 參與本專案的開發！
 
+[[註冊帳號](register.markdown)] [忘記密碼] [管理帳號] [使用手冊] [[回報問題／建議（議題追蹤系統）](https://github.com/ntouind/sites.ind.ntou.edu.tw/issues)]
+
 ## 特色<br>Features
 * 支援 sites.ind.ntou.edu.tw 域名下使用者自己架網站（尚未實作完成）
 * 支援其他域名的站台托管（請來信 <ntouind@gmail.com> 洽詢，我們保留是否通過申請的決定權）
