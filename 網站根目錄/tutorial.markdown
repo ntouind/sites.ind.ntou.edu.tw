@@ -8,7 +8,7 @@
 注意：FileZilla 另有提供 FTP 伺服器(server)產品，請下載其客戶端(client)產品
 
 ## 建立站台設定檔（僅適用 FileZilla 客戶端軟體）
-為了以後存取方便您可以啟動 FileZilla 後請至 `檔案(F)/站台管理員(S)` 新增一個新站台細節如下：
+為了日後存取方便您可以啟動 FileZilla 後請至 `檔案(F)/站台管理員(S)` 新增一個新站台細節如下：
 
 * 「主機」欄位填入「sites.ind.ntou.edu.tw」
 * 「協定」下拉式選單選擇「SFTP - SSH File Transfer Protocol」
@@ -26,10 +26,10 @@
 
 <table>
 	<thead>
-		<tr><td>站台名稱</td><td>連接埠(Port)</td><td>使用者名稱</td><td>密碼</td></tr>
+		<tr><td>主機名稱</td><td>連接埠(Port)</td><td>使用者名稱</td><td>密碼</td></tr>
 	</thead>
 	<tbody>
-		<tr><td>sites.ind.ntou.edu.tw</td><td>22（預設值）</td><td>您於註冊時所輸入的使用者名稱<br />（如為獨立域名使用者則為您的<strong>完整域名</strong>）</td><td>您於註冊時所輸入的使用者名稱<br />（如為獨立域名使用者則為我們發給您的密碼）</td></tr>
+		<tr><td>sites.ind.ntou.edu.tw</td><td>22（預設埠）</td><td>您於註冊時所設定的使用者名稱<br />（如為獨立域名使用者則為您的<strong>完整域名</strong>）</td><td>您於註冊時所設定的密碼<br />（如為獨立域名使用者則為我們發給您的密碼）</td></tr>
 	</tbody>
 </table>
 
