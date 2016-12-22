@@ -1,0 +1,56 @@
+# 使用教學
+## 取得一個 SFTP 客戶端軟體
+您可以使用慣用的 SFTP 客戶端軟體來上傳網站內容，在這個教學中我們以自由與開放來源碼又跨平台的 [Filezilla FTP/FTPS/SFTP 客戶端軟體](https://filezilla-project.org/)為例
+
+注意：FileZilla 另有提供 FTP 伺服器(server)產品，請下載其客戶端(client)產品
+
+## 建立站台設定檔（僅適用 FileZilla 客戶端軟體）
+為了以後存取方便您可以啟動 FileZilla 後請至 `檔案(F)/站台管理員(S)` 新增一個新站台細節如下：
+
+* 「主機」欄位填入「sites.ind.ntou.edu.tw」
+* 「協定」下拉式選單選擇「SFTP - SSH File Transfer Protocol」
+* 「登入型式」選擇「一般」
+* 「使用者」欄位填入您於註冊頁面填寫的使用者名稱（獨立域名使用者則是您所申請的**完整域名**，如 「xxx.ntou.edu.tw」）
+* 「密碼」欄位則輸入您的密碼
+
+![FileZilla 站台管理員一般使用者設定方式示意圖](assets/pictures/tutorial-filezilla-site-manager-regular-user-example.png)  
+![FileZilla 站台管理員獨立域名使用者設定方式示意圖](assets/pictures/tutorial-filezilla-site-manager-individual-domain-user-example.png)
+
+然後點擊「確定(O)」即可保存站台設定，日後如需連線即可直接到站台管理員中選取您要連線的站台後點擊「連線(C)」即可連線
+
+## 連線伺服器
+如使用其他 SFTP 客戶端軟體本服務的 SFTP 檔案傳輸介面的連線細節如下：
+
+<table>
+	<thead>
+		<tr><td>站台名稱</td><td>連接埠(Port)</td><td>使用者名稱</td><td>密碼</td></tr>
+	</thead>
+	<tbody>
+		<tr><td>sites.ind.ntou.edu.tw</td><td>22（預設值）</td><td>您於註冊時所輸入的使用者名稱<br />（如為獨立域名使用者則為您的<strong>完整域名</strong>）</td><td>您於註冊時所輸入的使用者名稱<br />（如為獨立域名使用者則為我們發給您的密碼）</td></tr>
+	</tbody>
+</table>
+
+請參考該軟體的使用手冊設定連線。
+
+如果您的客戶端軟體要求使用 URL（網址）來連線伺服器，請使用：
+
+    sftp://〈使用者名稱〉@sites.ind.ntou.edu.tw
+
+來進行連線
+
+## 檔案管理
+連線完成後*中間靠右側*的遠端站台面板即會列出伺服器端的檔案列表
+
+![FileZilla 檔案管理介面遠端站台面板示意圖](assets/pictures/tutorial-filezilla-file-manager-remote-panel-rootdir.png)
+
+「網站根目錄/」為您的網站的最上層目錄，對應一般使用者的 `http(s)://sites.ind.ntou.edu.tw/~〈使用者名稱〉` 與獨立域名使用者的 `http(s)://〈您所申請的域名〉/`，將左側本地站台面板中要上傳的檔案選取後在其內容導向選單(contectual menu)中選取「上傳」即可將選取的檔案上傳到遠端伺服器
+
+提示：如果出現「上傳失敗」錯誤訊息請檢查您是否在遠端站台面板中尚未切換到「網站根目錄」目錄，這是您唯一可以上傳檔案的地方
+
+![FileZilla 檔案管理介面本地站台面板上傳檔案示意圖](assets/pictures/tutorial-filezilla-file-manager-local-panel-file-upload.png)
+
+上傳完成之後您應可於對應的網址察看到您上傳的網站內容：
+
+![上傳結果示意圖](assets/pictures/tutorial-individual-domain-upload-result.png)
+
+如有任何問題，請不吝來信網路發展協會 &lt;<ntouind@gmail.com>&gt; 詢問
