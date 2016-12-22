@@ -26,7 +26,7 @@
 
 <table>
 	<thead>
-		<tr><td>主機名稱</td><td>連接埠(Port)</td><td>使用者名稱</td><td>密碼</td></tr>
+		<tr><th>主機名稱</th><th>連接埠(Port)</th><th>使用者名稱</th><th>密碼</th></tr>
 	</thead>
 	<tbody>
 		<tr><td>sites.ind.ntou.edu.tw</td><td>22（預設埠）</td><td>您於註冊時所設定的使用者名稱<br />（如為獨立域名使用者則為您的<strong>完整域名</strong>）</td><td>您於註冊時所設定的密碼<br />（如為獨立域名使用者則為我們發給您的密碼）</td></tr>

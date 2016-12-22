@@ -1,9 +1,4 @@
-table thead td {
-	font-weight: bold;
-	text-align: center
-}
-
-table td {
-	border: 1px;
+table {
+	border: 1px solid black;
 	border-collapse: collapse
 }
