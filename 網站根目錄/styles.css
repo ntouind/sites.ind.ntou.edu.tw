@@ -2,3 +2,8 @@ table thead td {
 	font-weight: bold;
 	text-align: center
 }
+
+table td {
+	border: 1px;
+	border-collapse: collapse
+}
