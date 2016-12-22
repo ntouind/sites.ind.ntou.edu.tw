@@ -2,10 +2,14 @@
 這裡是[海洋大學網路發展協會網站托管服務](https://sites.ind.ntou.edu.tw)與它的開發與維護專案  
 到 <http://github.com/ntouind/sites.ind.ntou.edu.tw> 參與本專案的開發！
 
-[註冊帳號] [忘記密碼] [管理帳號] [[使用教學](tutorial.markdown)] [[回報問題／建議（議題追蹤系統）](https://github.com/ntouind/sites.ind.ntou.edu.tw/issues)] [[服務條款](terms.markdown)] [隱私政策]
+[註冊帳號] [忘記密碼] [管理帳號] [[使用教學](tutorial.markdown)] [[回報問題／建議（議題追蹤系統）](https://github.com/ntouind/sites.ind.ntou.edu.tw/issues)] [[服務條款](terms.markdown)] [隱私政策] [資訊安全政策]
 
 ## 特色<br>Features
-* **（尚未實作完成）**支援 sites.ind.ntou.edu.tw 域名下使用者自己架網站
+* **（尚未實作完成）**支援 sites.ind.ntou.edu.tw 域名下使用者自己托管網站
+	* 靜態網頁
+	* **（尚未支援）**PHP
+	* **（尚未支援）**MySQL/MariaDB 資料庫
+	* （不支援）CGI 程式
 * 支援其他域名的站台托管（請來信 <ntouind@gmail.com> 洽詢，我們保留是否通過申請的決定權）
 * 支援以 [Let's Encrypt - Free SSL/TLS Certificates](https://letsencrypt.org/) 為基礎的 HTTPS 加密通訊協議，保護傳輸的資料
 * **（限主網站）**俱備可自訂的 [Apache Web 伺服器錯誤頁面](https://sites.ind.ntou.edu.tw/http-404-not-found)
