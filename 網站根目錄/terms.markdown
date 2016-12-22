@@ -5,7 +5,7 @@
 ## 使用規定
 使用本服務需遵從下列規範：
 
-* [臺灣學術網路(TANet)管理規範](http://ws.moe.edu.tw/001/Upload/userfiles/%E5%8F%B0%E7%81%A3%E5%AD%B8%E8%A1%93%E7%B6%B2%E8%B7%AF(TANET)%E7%AE%A1%E7%90%86%E8%A6%8F%E7%AF%84.PDF)
+* [臺灣學術網路(TANet)管理規範](http%3A%2F%2Fws.moe.edu.tw%2F001%2FUpload%2Fuserfiles%2F%25E5%258F%25B0%25E7%2581%25A3%25E5%25AD%25B8%25E8%25A1%2593%25E7%25B6%25B2%25E8%25B7%25AF%28TANET%29%25E7%25AE%25A1%25E7%2590%2586%25E8%25A6%258F%25E7%25AF%2584.PDF)
 * [教育部校園網路使用規範](http://ws.moe.edu.tw/001/Upload/userfiles/%E6%95%99%E8%82%B2%E9%83%A8%E6%A0%A1%E5%9C%92%E7%B6%B2%E8%B7%AF%E4%BD%BF%E7%94%A8%E8%A6%8F%E7%AF%84.PDF)
 * [台灣當地法律規定](http://law.moj.gov.tw/)
 
