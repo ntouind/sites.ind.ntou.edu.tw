@@ -20,8 +20,8 @@
 本服務每日取得並套用由 [Ubuntu](http://ubuntu.com) 所提供的資訊安全漏洞修正更新，讓所有的第零日(0day)漏洞僅能存活在，第零天。
 
 ## 回報資訊安全問題<br />Report Information Security Issue
-請到我們的[議題追蹤系統](https://github.com/ntouind/sites.ind.ntou.edu.tw/issues)建檔新議題以回報資訊安全問題    
+請到我們的[議題追蹤系統](https://github.com/ntouind/sites.ind.ntou.edu.tw/issues)建檔新議題以回報資訊安全問題。  
 Please file a new issue on our [issue tracker](https://github.com/ntouind/sites.ind.ntou.edu.tw/issues) to report information security issues.
 
-如果有機密資訊需要傳遞，請改使用[我們的電子郵件地址](mailto:ntouind@gmail.com)  
-If you need to tranfer private information please use [our e-mail address](mailto:ntouind@gmail.com) instead.
+如果有機密資訊需要傳遞，請改使用[我們的電子郵件地址](mailto:ntouind@gmail.com)連繫。  
+If you need to tranfer private information please use [our e-mail address](mailto:ntouind@gmail.com) to contact instead.
