@@ -4,7 +4,7 @@
 
 請先閱畢我們的[服務條款](/terms.markdown)再嘗試註冊帳號。
 
-<form name="registration" method="post" action="/cgi-bin/register-user.cgi">
+<form id="registration-form" method="post" action="/cgi-bin/register-user.cgi">
 	<table>
 		<thead>
 			<tr>
@@ -39,11 +39,11 @@
 				</td>
 			</tr>
 			<tr>
-				<td>密碼</td><td><input name="password" type="password" size="10" max-length="100" /></td><td>服務中使用的密碼，請勿使用弱密碼</td>
-			</td>
+				<td>密碼</td><td><input name="password" type="password" size="10" maxlength="100" /></td><td>服務中使用的密碼，請勿使用弱密碼</td>
+			</tr>
 			<tr>
-				<td>密碼</td><td><input name="password-again" type="password" size="10" max-length="100" /></td><td>為避免輸入錯誤，請再次輸入一次密碼</td>
-			</td>
+				<td>密碼</td><td><input name="password-again" type="password" size="10" maxlength="100" /></td><td>為避免輸入錯誤，請再次輸入一次密碼</td>
+			</tr>
 			<tr>
 				<td>慣用電子郵件地址</td><td><input name="perferred-email-address" type="text" size="10" maxlength="254" /><!-- [standards - What is the longest possible email address? - Stack Overflow](http://stackoverflow.com/questions/7717573/what-is-the-longest-possible-email-address#7717596) --></td><td>您的慣用電子郵件地址，我們將會用此電子郵件地址跟學校信箱來發送服務通知<br />此信箱可用於重設服務密碼，請勿使用拋棄式電子信箱</td>
 			</tr>
