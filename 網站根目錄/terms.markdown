@@ -48,5 +48,3 @@
 若您上傳超過磁碟空間使用限制該上傳將會失敗。
 
 如需額外的磁碟空間，請[來信](mailto:ntouind@gmail.com)或在[議題追蹤系統](https://github.com/ntouind/sites.ind.ntou.edu.tw)上建檔新議題洽詢。
-
-其他細節請參閱我們的[隱私權政策（尚未實作）]
