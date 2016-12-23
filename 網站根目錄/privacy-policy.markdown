@@ -1,4 +1,7 @@
 # 隱私政策<br />Privacy Policy
+
+[[回首頁](https://sites.ind.ntou.edu.tw)]
+
 本服務的隱私政策如下：
 
 ## 不存取非必要資訊
