@@ -15,4 +15,4 @@
 我們使用 [Unix 檔案權限設定](https://en.wikipedia.org/wiki/File_system_permissions)限制他人對您的資料的存取
 
 ## 注意事項
-本隱私政策的內容如有變更恕不另外通知，請定期瀏覽本網頁以及[它的變更紀錄](https://github.com/ntouind/sites.ind.ntou.edu.tw/commits/master/網站根目錄/privacy-policy.markdown)。
+本政策的內容如有變更恕不另外通知，請定期瀏覽本網頁以及[它的變更紀錄](https://github.com/ntouind/sites.ind.ntou.edu.tw/commits/master/網站根目錄/privacy-policy.markdown)。
