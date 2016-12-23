@@ -38,4 +38,15 @@
 * 未經授權的人士透過本服務的程式缺陷讀取您的資料  
     Unautherized party read your data via this service's exploits
 
+### 磁碟空間使用限制<br />Disk Quota
+為維護其他使用者的權益，本服務的預設磁碟空間使用限制如下：
+
+| 一般使用者 | 獨立域名使用者 | 
+| :---: | :---: |
+| 100MiB | 200MiB |
+
+若您上傳超過磁碟空間使用限制該上傳將會失敗。
+
+如需額外的磁碟空間，請[來信](mailto:ntouind@gmail.com)或在[議題追蹤系統](https://github.com/ntouind/sites.ind.ntou.edu.tw)上建檔新議題洽詢。
+
 其他細節請參閱我們的[隱私權政策（尚未實作）]
