@@ -7,9 +7,8 @@
 #include <netinet/in.h>
 #include <netdb.h>
 #include <arpa/inet.h>
-                    
 
-#define TIMEOUT_SEC     20
+#define TIMEOUT_SEC 20
 
 unsigned long name_resolve(unsigned char *host_name)
 {
@@ -47,7 +46,8 @@ int interactive(int s, char *cmd) {
                 }
         return(1);
 }
-int  main(int argc,char *argv[]) {
+
+int main(int argc,char *argv[]) {
         char cmd[128];
 
         int s;
@@ -93,7 +93,7 @@ int  main(int argc,char *argv[]) {
 
 int check_name(char *name) {
         int i, count=0;
-        
+
         for(i = 0; i < strlen(name); i++) {
                 if((name[i] >= '0' && name[i] <= '9')
                 || (name[i] >= 'A' && name[i] <= 'Z')
@@ -101,7 +101,7 @@ int check_name(char *name) {
                 || (name[i] == '-' || name[i] == '_'))
                         count++;
         }
-        
+
         if(count == strlen(name))
                 return(1);
         return(0);
