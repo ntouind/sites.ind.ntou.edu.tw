@@ -38,4 +38,4 @@
 * [ntouind/sites.ind.ntou.edu.tw Wiki](https://github.com/ntouind/sites.ind.ntou.edu.tw/wiki)
 * [舊站逆向工程 · ntouind/sites.ind.ntou.edu.tw Wiki](https://github.com/ntouind/sites.ind.ntou.edu.tw/wiki/%E8%88%8A%E7%AB%99%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)
 * [架站指引 · ntouind/sites.ind.ntou.edu.tw Wiki](https://github.com/ntouind/sites.ind.ntou.edu.tw/wiki/%E6%9E%B6%E7%AB%99%E6%8C%87%E5%BC%95)
-* [ntouind/sites.ind.ntou.edu.tw-etckeeper: 海洋大學網路發展協會網站托管服務的 etckeeper](https://github.com/ntouind/sites.ind.ntou.edu.tw-etckeeper) （暫不公開）
+* [ntouind/sites.ind.ntou.edu.tw-etckeeper: 海洋大學網路發展協會網站托管服務的 etckeeper](https://github.com/ntouind/sites.ind.ntou.edu.tw-etckeeper) 
