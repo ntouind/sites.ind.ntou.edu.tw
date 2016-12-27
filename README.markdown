@@ -1,10 +1,10 @@
-# 海洋大學網路發展協會網站托管服務<br>NTOU IND Site Hosting Service
+# 海洋大學網路發展協會網站托管服務<br />NTOU IND Site Hosting Service
 這裡是[海洋大學網路發展協會網站托管服務](https://sites.ind.ntou.edu.tw)與它的開發與維護專案  
 到 <http://github.com/ntouind/sites.ind.ntou.edu.tw> 參與本專案的開發！
 
 [註冊帳號] [忘記密碼] [管理帳號] [[使用教學](tutorial.markdown)] [[回報問題／建議（議題追蹤系統）](https://github.com/ntouind/sites.ind.ntou.edu.tw/issues)] [[服務條款](terms.markdown)] [[隱私政策](privacy-policy.markdown)] [[資訊安全政策](security-policy.markdown)]
 
-## 特色<br>Features
+## 特色<br />Features
 * **（尚未實作完成）**支援 sites.ind.ntou.edu.tw 域名下使用者自己托管網站
 	* 靜態網頁
 	* **（尚未支援）**PHP
@@ -17,19 +17,19 @@
 * 預設啟用每天自動安裝系統更新並重新啟動系統讓伺服器維持最佳運作狀態與安全性
 * 俱備良好的[維護文件](http://github.com/ntouind/sites.ind.ntou.edu.tw/wiki)
 
-## 開發目標<br>Development Goals
+## 開發目標<br />Development Goals
 * 一個易於架設維護、安全的 L.A.M.P.(Linux+Apache+MySQL/MariaDB+PHP) 伺服器與網站托管服務
 * 作為讓社員學習 Apache 多虛擬主機(Virtual Host)、PHP 動態網頁設計、CGI 程式設計、多重使用者管理、磁碟配額控制的平台
 * 一樣，能公開的資源都會公開在 GitHub 上
 
-## 作者<br>Authors
+## 作者<br />Authors
 * 本作品由國立台灣海洋大學網路發展協會之社員所作，惟至近期並沒有紀錄誰改了什麼
 * 目前有紀錄的作者請參考 [Contributors to ntouind/sites.ind.ntou.edu.tw](https://github.com/ntouind/sites.ind.ntou.edu.tw/graphs/contributors)
 
-## 目前維護者<br>Current Maintainer
+## 目前維護者<br />Current Maintainer
 林博仁 &lt;<Buo.Ren.Lin@gmail.com>&gt;
 
-## 智慧財產授權條款<br>I.P. License
+## 智慧財產授權條款<br />I.P. License
 除特別註明授權條款的內容，本智慧財產採用 [Creative Commons 《姓名標示 - 相同方式分享》授權條款第 4.0 版](https://creativecommons.org/licenses/by-sa/4.0/)或其任意更近期之版本釋出供所有人在授權範圍內自由使用
 
 在授權範圍外之使用請來信國立台灣海洋大學網路發展協會 &lt;<ntouind@gmail.com>&gt; 洽詢

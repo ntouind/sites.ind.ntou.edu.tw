@@ -20,7 +20,7 @@
 ![FileZilla 站台管理員一般使用者設定方式示意圖](assets/pictures/tutorial-filezilla-site-manager-regular-user-example.png)  
 ![FileZilla 站台管理員獨立域名使用者設定方式示意圖](assets/pictures/tutorial-filezilla-site-manager-individual-domain-user-example.png)
 
-然後點擊「確定(O)」即可保存站台設定，日後如需連線即可直接到站台管理員中選取您要連線的站台後點擊「連線&#x0028;C&#x0029;」即可連線
+然後點擊「確定(O)」即可保存站台設定，日後如需連線即可直接到站台管理員中選取您要連線的站台後點擊「連線(C)」即可連線
 
 ## 連線伺服器
 如使用其他 SFTP 客戶端軟體本服務的 SFTP 檔案傳輸介面的連線細節如下：
