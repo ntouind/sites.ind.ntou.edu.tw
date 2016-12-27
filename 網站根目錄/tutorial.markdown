@@ -1,6 +1,6 @@
 # 使用教學
 
-[[回首頁](https://sites.ind.ntou.edu.tw)]
+[[回首頁](/)]
 
 ## 取得一個 SFTP 客戶端軟體
 您可以使用慣用的 SFTP 客戶端軟體來上傳網站內容，在這個教學中我們以自由與開放來源碼又跨平台的 [Filezilla FTP/FTPS/SFTP 客戶端軟體](https://filezilla-project.org/)為例

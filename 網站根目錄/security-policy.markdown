@@ -1,6 +1,6 @@
 # 資訊安全政策<br />Information Security Policies
 
-[[回首頁](https://sites.ind.ntou.edu.tw)]
+[[回首頁](/)]
 
 本服務的資訊安全政策如下：
 
