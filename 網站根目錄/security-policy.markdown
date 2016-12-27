@@ -27,4 +27,4 @@
 Please file a new issue on our [issue tracker](https://github.com/ntouind/sites.ind.ntou.edu.tw/issues) to report information security issues.
 
 如果有機密資訊需要傳遞，請改使用[我們的電子郵件地址](mailto:ntouind@gmail.com)連繫。  
-If you need to tranfer private information please use [our e-mail address](mailto:ntouind@gmail.com) to contact instead.
+If you need to tranfer confidential information please use [our e-mail address](mailto:ntouind@gmail.com) to contact instead.
