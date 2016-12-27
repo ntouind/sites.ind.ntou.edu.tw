@@ -54,8 +54,13 @@ int main(int argc,char *argv[]) {
         struct sockaddr_in saddr;
         char *username;
         char *password;
-        if(argc<3)
-                return 0;
+        if (argc <= 3) {
+            // 0x804873d
+            fprintf(stdout, "錯誤: 參數不正確(host, name, password).");
+            // branch -> 0x8048b04
+            // 0x8048b04
+            return -1;
+        }
         username=argv[1];
         password=argv[2];
         

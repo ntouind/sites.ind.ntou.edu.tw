@@ -35,7 +35,7 @@ unless ($password_new =~ /^[\w]{5,15}$/)
 }
 sleep 3;
 $now=`date`;
-open(FC,">>/root/www/cgi-bin/everytry.log");
+open(FC,">>change-password-attempt.log");
 print FC "帳號 $account :$now";
 close FC;
 #檢查帳號存在

@@ -1,3 +1,5 @@
+# readform.pl - 分析傳入的表單的程式
+
 sub ReadForm
 {
   local (*in) = @_ if @_;
