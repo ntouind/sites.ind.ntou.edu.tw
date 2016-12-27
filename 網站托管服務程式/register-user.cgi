@@ -1,7 +1,5 @@
 #!/usr/local/bin/perl -w
 
-# patched by medicalwei due to safety concerns.
-
 use String::ShellQuote;
 
 print "Content-Type: text/html\n\n";
@@ -130,10 +128,6 @@ print <<EOT;
 有任何問題請mail給 <a href="http://140.121.80.15/admin.html">ind管理員</a>
 EOT
 exit(0);
-
-
-
-
 
 sub errmsg
 {
