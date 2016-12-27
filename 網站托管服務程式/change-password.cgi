@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl
+#!/usr/bin/env perl
 print "Content-Type: text/html\n\n";
 require "readform.pl";
 
