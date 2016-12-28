@@ -1,2 +1,6 @@
 [core]
 	sharedrepository = 1
+
+[filter "enforce_coding_style_c"]
+	clean = astyle --options=\"來源碼美化器設定檔/C.astylerc\"
+	smudge = cat | head --lines=-1

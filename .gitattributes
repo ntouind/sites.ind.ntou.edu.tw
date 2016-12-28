@@ -9,3 +9,8 @@
 *.GIF filter=lfs diff=lfs merge=lfs -text
 *.JPG filter=lfs diff=lfs merge=lfs -text
 *.JPEG filter=lfs diff=lfs merge=lfs -text
+*.c filter=enforce_coding_style_c
+*.h filter=enforce_coding_style_c
+*.cpp filter=enforce_coding_style_c
+*.c++ filter=enforce_coding_style_c
+*.hpp filter=enforce_coding_style_c
