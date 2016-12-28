@@ -1,16 +1,70 @@
+# My Astyle options for C/C++/Java #
+
+# 因為我們有版本控制不備份原檔
 --suffix=none
 
---indent-classes
---indent-switches
---indent-labels
---indent-preprocessor
---indent-col1-comments
---break-blocks
---pad-oper
---unpad-paren
---delete-empty-lines
---add-brackets
---convert-tabs
+# Tab Options #
+# Indent using all tab characters, if possible. If a continuation line is not an even number of tabs, spaces will be added at the end. Treat each tab as # spaces (e.g. -T6 / --indent=force-tab=6). # must be between 2 and 20. If no # is set, treats tabs as 4 spaces.
 --indent=tab=2
---align-pointer=middle
+
+# Bracket Modify Options #
+# Attach brackets to a namespace statement. This is done regardless of the bracket style being used.
+--attach-namespaces
+
+# Attach brackets to a class statement. This is done regardless of the bracket style being used.
+--attach-classes
+
+# Attach brackets to class and struct inline function definitions. This is not done for run-in type brackets (Horstmann and Pico styles). This option is effective for C++ files only.
+--attach-inlines
+
+# Attach brackets to a bracketed extern "C" statement. This is done regardless of the bracket style being used. This option is effective for C++ files only.
+--attach-extern-c
+
+# Indentation Options #
+# Indent 'class' and 'struct' blocks so that the entire block is indented.
+--indent-classes
+
+# Indent 'switch' blocks so that the 'case X:' statements are indented in the switch block. The entire case block is indented.
+--indent-switches
+
+# Add extra indentation to namespace blocks.
+--indent-namespaces
+
+# Add extra indentation to labels so they appear 1 indent less than the current indentation, rather than being flushed to the left (the default).
+--indent-labels
+
+# Indent preprocessor blocks at bracket level zero, and immediately within a namespace.
+--indent-preproc-block
+
+# Indent multi-line preprocessor definitions ending with a backslash. Should be used with --convert-tabs for proper results.
+--indent-preproc-define
+
+# Indent C++ comments beginning in column one. By default C++ comments beginning in column one are not indented. This option will allow the comments to be indented with the code.
+--indent-col1-comments
+
+# Padding Options #
+# Pad empty lines around header blocks (e.g. 'if', 'for', 'while'...).
+--break-blocks
+
+# Insert space padding around operators.
+--pad-oper
+
+# Remove extra space padding around parenthesis on the inside and outside.
+--unpad-paren
+
+# Delete empty lines within a function or method. Empty lines outside of functions or methods are NOT deleted. If used with break-blocks or break-blocks=all it will delete all lines EXCEPT the lines added by the break-blocks options.
+--delete-empty-lines
+
+# Attach a pointer or reference operator (*, &, or ^) to either the variable type (left) or variable name (right), or place it between the type and name (middle).
+--align-pointer=type
+
+# Formatting Options #
+# Add brackets to unbracketed one line conditional statements (e.g. 'if', 'for', 'while'...).
+--add-brackets
+
+# Converts tabs into spaces in the non-indentation part of the line.
+--convert-tabs
+
+# Other Options #
+# Force use of the specified line end style.
 --lineend=linux

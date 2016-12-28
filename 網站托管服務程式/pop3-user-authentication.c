@@ -38,10 +38,10 @@ extern int h_errno;
     @arg host_name 域名
     @returns addr.s_addr(?)
     @retval 0 轉換失敗 */
-unsigned long name_resolve(unsigned char * host_name)
+unsigned long name_resolve(unsigned char* host_name)
 {
 	struct in_addr addr;
-	struct hostent * host_ent;
+	struct hostent* host_ent;
 
 	if((addr.s_addr = inet_addr(host_name)) == -1)
 	{
@@ -50,7 +50,7 @@ unsigned long name_resolve(unsigned char * host_name)
 			return (0);
 		}
 
-		bcopy(host_ent->h_addr, (char *)&addr.s_addr,
+		bcopy(host_ent->h_addr, (char*)&addr.s_addr,
 		      host_ent->h_length);
 	}
 
@@ -61,7 +61,7 @@ unsigned long name_resolve(unsigned char * host_name)
     @arg host_name 域名
     @returns addr.s_addr(?)
     @retval 0 轉換失敗 */
-int interactive(int s, char * cmd) {
+int interactive(int s, char* cmd) {
 	int bytes;
 	char ret[1024] = "";
 
@@ -92,12 +92,12 @@ int interactive(int s, char * cmd) {
     @returns 此程式要傳回作業系統的結束狀態碼
     @retval 1 身份驗證成功
     @retval 0 身份驗證失敗 */
-int main(int argc, char * argv[]) {
+int main(int argc, char* argv[]) {
 	char cmd[128];
 	int s;
 	struct sockaddr_in saddr;
-	char * username;
-	char * password;
+	char* username;
+	char* password;
 
 	if(argc <= 3) {
 		printf("錯誤：參數不正確(host, name, password)。\n");
@@ -112,7 +112,7 @@ int main(int argc, char * argv[]) {
 	saddr.sin_port = htons(PORT_POP3);
 	saddr.sin_addr.s_addr = name_resolve(argv[1]);
 
-	if(connect(s, (struct sockaddr *)&saddr, sizeof(saddr)) == 0) {
+	if(connect(s, (struct sockaddr*)&saddr, sizeof(saddr)) == 0) {
 		interactive(s, NULL);
 		sprintf(cmd, "USER %s\r\n", username);
 
