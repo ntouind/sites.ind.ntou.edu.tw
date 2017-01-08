@@ -48,7 +48,7 @@ $nickname=~s/[\s\$\@\<>]//gi;
 
 &errmsg("「暱稱」長度太長") unless($nickname =~ /^.{0,20}$/);
 
-sleep 3; # Why sleep?
+#sleep 3; # Why sleep?
 
 # check 身份
 # $stu_id=lc($stu_id); #轉換成小寫
@@ -128,7 +128,7 @@ system("chown", "--recursive", "$username:other-sites-readable", $user_site_root
 system("chmod", "2750", $user_site_rootdir);
 
 # 設定使用者磁碟空間限額
-system("edquota", "--prototype", "demo-user" , $username);
+system("edquota", "--prototype", "template-user" , $username);
 
 # 設定使用者密碼
 # $tmp="/root/tmp";
