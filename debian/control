@@ -1,0 +1,24 @@
+Source: ntouind-site-hosting-service
+Section: misc
+Priority: optional
+Homepage: http://github.com/ntouind/sites.ind.ntou.edu.tw
+Standards-Version: 3.9.2
+
+Package: ntouind-site-hosting-service-runtime-dependencies
+Version: 0-under-development
+Maintainer: 林博仁 <Buo.Ren.Lin@gmail.com>
+# Pre-Depends: <comma-separated list of packages>
+Depends: libstring-shellquote-perl
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+# Provides: <comma-separated list of packages>
+# Replaces: <comma-separated list of packages>
+# Architecture: all
+# Multi-Arch: <one of: foreign|same|allowed>
+# Copyright: CC BY-SA 4.0+
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Files: <pair of space-separated paths; First is file to include, second is destination>
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: 海洋大學網路發展協會網站托管服務
