@@ -1,0 +1,19 @@
+# 網路發展協會網站托管服務專屬設定
+# ---------------------------------
+# 本設定允許 Web 伺服器的執行身份「web-data」使用者以其他使用者的身份執行有限制的部份命令
+# 請注意這些同時也是惡意攻擊者透過 Web 伺服器漏洞所能最直接存取的命令，請小心限制允許範圍
+#
+# ## 參考資料
+# * man:sudoers
+# * man:visudo
+# 
+# ## etckeeper 對應修正
+# * ac7d027b21a7e1f4332a005d551359f85581865b
+# * 2fb9f12220d2c45aeaad880d24c928aff66e775e
+
+# 以 web-admin 群組的身份執行 GitHub Webhook 掛勾程式
+# Allow www-data user to run git commands using web-admin group
+www-data	ALL = (:web-admin) NOPASSWD: /var/www/sites.ind.ntou.edu.tw/GitHub\ Webhooks/*
+
+# 以 root 的身份執行使用者管理命令
+www-data	ALL = (root) NOPASSWD: /usr/sbin/addgroup, (root) NOPASSWD: /usr/sbin/adduser, (root) NOPASSWD: /usr/bin/mkdir, (root) NOPASSWD: /usr/bin/chown, (root) NOPASSWD: /usr/bin/chmod, (root) NOPASSWD: /usr/sbin/edquota, (root) NOPASSWD: /usr/sbin/chpasswd

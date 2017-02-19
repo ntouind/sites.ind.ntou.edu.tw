@@ -1,2 +1,0 @@
-# Allow www-data user to run git commands using web-admin group
-www-data	ALL = (:web-admin) NOPASSWD: /var/www/sites.ind.ntou.edu.tw/GitHub\ Webhooks/*
