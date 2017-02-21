@@ -3,23 +3,31 @@
 [[回首頁](/)]
 
 ## 使用規定<br />Regulations to Abide
-使用本服務需遵從下列規範：
+使用本服務需遵從下列規範：  
+Using this service requires users to abide to:
 
 * [臺灣學術網路(TANet)管理規範](http://ws.moe.edu.tw/001/Upload/userfiles/%E5%8F%B0%E7%81%A3%E5%AD%B8%E8%A1%93%E7%B6%B2%E8%B7%AF%28TANET%29%E7%AE%A1%E7%90%86%E8%A6%8F%E7%AF%84.PDF)
 * [教育部校園網路使用規範](http://ws.moe.edu.tw/001/Upload/userfiles/%E6%95%99%E8%82%B2%E9%83%A8%E6%A0%A1%E5%9C%92%E7%B6%B2%E8%B7%AF%E4%BD%BF%E7%94%A8%E8%A6%8F%E7%AF%84.PDF)
-* [台灣當地法律規定](http://law.moj.gov.tw/)
+* [台灣當地法律規定<br />Taiwan local regulations](http://law.moj.gov.tw/)
 
-概括來說，請不要用此服務來：
+概括來說，請不要用此服務來：  
+In short, please DON'T use service to:
 
-* 侵害他人的智慧財產（[合理使用](https://zh.wikipedia.org/zh-tw/%E5%90%88%E7%90%86%E4%BD%BF%E7%94%A8)例外）
-* 破壞電腦系統
-* 上傳情色或非法內容
+* 侵害他人的智慧財產（[合理使用](https://zh.wikipedia.org/zh-tw/%E5%90%88%E7%90%86%E4%BD%BF%E7%94%A8)例外）  
+Violate other's intellectual property rights(with an exception of [Fair Use](https://en.wikipedia.org/wiki/Fair_use))
+* 破壞電腦系統  
+Damage computer systems
+* 上傳情色或非法內容  
+Upload pronography or other illegal content
 
-我們將會不另行通知停用違反以上規範的使用者帳號並協助司法單位追究其法律責任
+我們將會不另行通知停用違反以上規範的使用者帳號並協助司法單位追究其法律責任  
+We will disable user accounts that violate the above terms and will assist in legal actions per request.
 
 ## 服務對象<br />Service Targets
-* 具有海大電子郵件信箱的教職員與學生
-* 其他經人工申請核可的對象
+* 具有海大電子郵件信箱的教職員與學生  
+Faculty or students with a NTOU e-mail account
+* 其他經人工申請核可的對象  
+Other individuals that passed the manual application
 
 ## 服務範圍與限制<br />Service Limitations
 ### 最大程度努力<br />Best Effort
